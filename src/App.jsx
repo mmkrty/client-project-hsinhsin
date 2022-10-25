@@ -4,7 +4,7 @@ import Hero from "./components/hero/hero.component";
 
 function App() {
   return (
-    <div>
+    <div className="font-source-sans-pro">
       <NavBar />
       <Hero />
     </div>

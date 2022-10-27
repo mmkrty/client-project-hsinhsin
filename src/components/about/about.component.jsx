@@ -3,8 +3,10 @@ const About = () => {
     <section className=" bg-secondary flex items-center justify-center">
       <div className="min-h-screen max-w-7xl flex justify-center items-center">
         <div>
-          <h2>Training</h2>
-          <p></p>
+          <h2>Education & Certification</h2>
+          <ul>
+            <li></li>
+          </ul>
           <h2>Experience</h2>
           <ul>
             <li></li>

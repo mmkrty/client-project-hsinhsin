@@ -1,5 +1,7 @@
 import thumb from "../../assets/hsinhsin.jpg";
-const Hero = () => {
+
+const Hero = (props) => {
+  console.log(props);
   return (
     <section className=" bg-secondary flex items-center justify-center">
       <div className="min-h-screen max-w-7xl flex justify-center items-center">

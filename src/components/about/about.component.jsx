@@ -1,4 +1,5 @@
-const About = () => {
+const About = ({ props }) => {
+  const { personInfo } = props;
   return (
     <section className=" bg-secondary flex items-center justify-center">
       <div className="min-h-screen max-w-7xl flex justify-center items-center">

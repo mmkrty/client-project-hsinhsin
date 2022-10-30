@@ -21,7 +21,7 @@ export const data = {
     ],
     experience: [
       {
-        title: "Freelance Chinese Tutor",
+        title: "Part-time Chinese Tutor",
         institution: "MyLingoKids",
         object: "children and teenagers",
         duration: "09/2022 - present",
@@ -29,7 +29,7 @@ export const data = {
       },
       {
         title: "Part-time Chinese Tutor",
-        institution: "",
+        institution: "Freelance",
         location: "Berlin, Germany",
         object: "adults",
         duration: "03/2020 – 05/2020",
@@ -37,7 +37,7 @@ export const data = {
       },
       {
         title: "Part-time Chinese Tutor",
-        institution: "",
+        institution: "Freelance",
         location: "Berlin, Germany",
         object: "elemantry school student",
         duration: "11/2019 – 03/2021",

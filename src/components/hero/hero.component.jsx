@@ -10,7 +10,7 @@ const Hero = ({ props }) => {
             {hero.header}
           </h1>
           <p className="text-2xl mb-10 leading-10 text-prime">{hero.intro}</p>
-          <a className="text-xl py-3 px-5 text-white bg-prime rounded-sm shadow-md cursor-pointer">
+          <a className="text-xl py-3 px-5 text-white bg-prime rounded-sm shadow-md cursor-pointer uppercase">
             {hero.action}
           </a>
         </div>

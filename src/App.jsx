@@ -3,7 +3,7 @@ import { data } from "./datas/hsinHsinInfo";
 import NavBar from "./components/navbar/navbar.component";
 import Hero from "./components/hero/hero.component";
 import About from "./components/about/about.component";
-import Info from "./components/info/info.component";
+import Feature from "./components/feature/feature.component";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <Hero props={data} />
       <About props={data} />
-      <Info props={data} />
+      <Feature props={data} />
     </div>
   );
 }

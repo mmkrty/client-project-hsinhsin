@@ -69,6 +69,13 @@ export const data = {
       },
     ],
   },
+  hook: {
+    title: "Chinese?",
+    content: [
+      "Let's be honest and address the elephant in the room: Chinese is HARD, period. Reading and writing? There are over 30,000 Chinese characters, 3,500~5,000 if you are counting only the commonly used ones, still a lot, right? Listening and speaking? There are 5 tones when it comes to pronunciation, yep, a lot, and you don't even know what does tone mean.",
+      "I won't make the promise to make Chinese easy for you because it's just impossible. What I can do is make learning it more pleasant.",
+    ],
+  },
   features: [
     {
       title: "Customization",
@@ -76,7 +83,7 @@ export const data = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
     },
     {
-      title: "Interactivity",
+      title: "Interaction",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
     },

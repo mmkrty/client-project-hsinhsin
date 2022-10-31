@@ -13,7 +13,9 @@ const About = ({ props }) => {
           ></img>
 
           <div className="bg-white p-5 m-3 rounded-md shadow-md">
-            <h2 className="text-4xl">Education & Certification</h2>
+            <h2 className="text-4xl  font-fraunces">
+              Education & Certification
+            </h2>
             <hr class="mt-3 mb-5 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
             {personInfo.certification.map((el) => {
               return (
@@ -28,7 +30,7 @@ const About = ({ props }) => {
         </div>
 
         <div className="bg-white p-5 m-3 rounded-md shadow-md">
-          <h2 className="text-4xl mb-3">Experience</h2>
+          <h2 className="text-4xl mb-3  font-fraunces">Experience</h2>
           <hr class="mt-3 mb-5 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
           {personInfo.experience.map((el) => {
             return (

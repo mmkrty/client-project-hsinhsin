@@ -69,4 +69,21 @@ export const data = {
       },
     ],
   },
+  features: [
+    {
+      title: "Customization",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+    },
+    {
+      title: "Interactivity",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+    },
+    {
+      title: "Gamification",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+    },
+  ],
 };

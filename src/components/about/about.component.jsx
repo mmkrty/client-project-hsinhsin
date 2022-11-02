@@ -3,7 +3,7 @@ const About = ({ props }) => {
   const { personInfo } = props;
   return (
     <section className=" bg-secondary flex items-center justify-center flex-col">
-      <h2 className="text-5xl font-fraunces mb-5">About</h2>
+      <h2 className="text-5xl font-fraunces mb-5 text-prime">About</h2>
       <div className="min-h-screen max-w-7xl flex justify-center items-center">
         {/* <img
             src={teacher}

@@ -81,16 +81,22 @@ export const data = {
       title: "Customization",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+      imgUrl:
+        "https://images.unsplash.com/photo-1631106256072-54c89defe828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       title: "Interaction",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+      imgUrl:
+        "https://nebula.wsimg.com/447ef179458be387209d8cf239678399?AccessKeyId=D9C756D1BB6BBB46151C&disposition=0&alloworigin=1",
     },
     {
       title: "Gamification",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+      imgUrl:
+        "https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
   ],
 };

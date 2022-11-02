@@ -1,8 +1,9 @@
-import teacher from "../../assets/teacher.png";
-const About = ({ props }) => {
-  const { personInfo } = props;
+import { data } from "../../datas/hsinHsinInfo";
+
+const About = () => {
+  const { personInfo } = data;
   return (
-    <section className=" bg-secondary flex items-center justify-center flex-col">
+    <section className="min-h-screen bg-secondary flex items-center justify-center flex-col py-16">
       <h2 className="text-5xl font-fraunces text-prime">About</h2>
       <div className="max-w-7xl flex justify-center items-center py-10">
         {/* <img

@@ -1,18 +1,19 @@
 import "./App.css";
-import { data } from "./datas/hsinHsinInfo";
+import { Routes, Route, Outlet } from "react-router-dom";
+import Home from "./routes/home/home.component";
 import NavBar from "./components/navbar/navbar.component";
-import Hero from "./components/hero/hero.component";
-import About from "./components/about/about.component";
-import Feature from "./components/feature/feature.component";
+import Feature from "./routes/feature/feature.component";
+import About from "./routes/about/about.component";
 
 function App() {
   return (
-    <div className="font-source-sans-pro">
-      <NavBar />
-      <Hero props={data} />
-      <About props={data} />
-      <Feature props={data} />
-    </div>
+    <Routes>
+      <Route path="/" element={<NavBar />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="feature" element={<Feature />} />
+      </Route>
+    </Routes>
   );
 }
 

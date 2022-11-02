@@ -1,7 +1,8 @@
-const Feature = ({ props }) => {
-  const { features, hook } = props;
+import { data } from "../../datas/hsinHsinInfo";
+const Feature = () => {
+  const { features, hook } = data;
   return (
-    <section className="min-h-screen bg-secondary flex items-center justify-center flex-col py-10">
+    <section className="min-h-screen bg-secondary flex items-center justify-center flex-col py-16">
       <h2 className="text-5xl font-fraunces text-prime">Feature</h2>
       <div className="w-11/12 max-w-7xl flex justify-around items-top py-14">
         <h3 className="max-w-xl font-semibold text-4xl flex-1 px-4 leading-relaxed text-prime">

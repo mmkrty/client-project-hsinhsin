@@ -3,8 +3,11 @@ const Feature = ({ props }) => {
   return (
     <section className="min-h-screen bg-secondary flex items-center justify-center flex-col py-10">
       <h2 className="text-5xl font-fraunces text-prime">Feature</h2>
-      <div className=" max-w-7xl ">
-        <p className="w-3/4 my-0 mx-auto py-5 text-xl leading-8">
+      <div className="w-11/12 max-w-7xl flex justify-around items-top py-14">
+        <h3 className="max-w-xl font-semibold text-4xl flex-1 px-4 leading-relaxed text-prime">
+          {hook.banner}
+        </h3>
+        <p className="max-w-xl text-xl leading-8 flex-1 text-prime">
           {hook.content}
         </p>
       </div>

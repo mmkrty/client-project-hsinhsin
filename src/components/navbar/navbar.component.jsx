@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <nav class="flex justify-around items-center bg-white shadow-md py-4 px-2 position: fixed w-screen z-10">
+    <nav class="flex justify-around items-center bg-white shadow-md py-2 px-2 position: fixed w-screen z-10 hover:py-4 transition-all">
       <div class="w-36">
         <a href="#about">
           {/* <img src="" alt="logo" class="w-full" /> */}

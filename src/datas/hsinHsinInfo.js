@@ -70,10 +70,11 @@ export const data = {
     ],
   },
   hook: {
-    title: "Chinese?",
+    banner:
+      "Chinese is Hard, no one can make it easy, but we can have fun while learning it.",
     content: [
-      "Let's be honest and address the elephant in the room: Chinese is HARD, period. Reading and writing? There are over 30,000 Chinese characters, 3,500~5,000 if you are counting only the commonly used ones, still a lot, right? Listening and speaking? There are 5 tones when it comes to pronunciation, yep, a lot, and you don't even know what does tone mean.",
-      "I won't make the promise to make Chinese easy for you because it's just impossible. What I can do is make learning it more pleasant.",
+      "Let's be honest and address the elephant in the room: Chinese is HARD, period. Reading and writing? There are over 30,000 Chinese characters. Listening and speaking? There are 5 tones when it comes to pronunciation, yep, a lot, and you don't even know what does 'tone' mean.",
+      "I won't make promise you to make Chinese easy because it's just impossible. What I can do is make learning it more pleasant.",
     ],
   },
   features: [

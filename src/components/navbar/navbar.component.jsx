@@ -15,6 +15,11 @@ const NavBar = () => {
         </li>
         <li>
           <a class="p-2" href="#contact">
+            Features
+          </a>
+        </li>
+        <li>
+          <a class="p-2" href="#contact">
             Contact
           </a>
         </li>

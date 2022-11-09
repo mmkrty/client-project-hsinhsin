@@ -8,7 +8,7 @@ const NavBar = () => {
         <div class="w-36">
           <Link to="/">
             {/* <img src="" alt="logo" class="w-full" /> */}
-            logo
+            <p className="font-pacifacto text-2xl">HsinHsin</p>
           </Link>
         </div>
         <ul class="flex justify-between items-center">

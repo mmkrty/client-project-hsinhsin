@@ -11,6 +11,7 @@ module.exports = {
         cinzel: ['"Cinzel"', "serif"],
         fraunces: ['"Fraunces"', "serif"],
         "source-sans-pro": ['"Source Sans Pro"', "sans-serif"],
+        pacifacto: ['"Pacifico"', "cursive"],
       },
     },
   },

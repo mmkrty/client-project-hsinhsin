@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <Fragment>
-      <nav class="flex justify-around items-center bg-white shadow-md py-2 px-2 position: fixed w-screen z-10 hover:py-4 transition-all">
+      <nav class="flex justify-around items-center bg-secondary py-4 px-2 position: fixed w-screen z-10">
         <div class="w-36">
           <Link to="/">
             {/* <img src="" alt="logo" class="w-full" /> */}

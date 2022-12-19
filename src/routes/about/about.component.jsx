@@ -25,15 +25,19 @@ const About = () => {
                 Education & Certification
               </h3>
               <hr class="mt-3 mb-5 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
-              <ul>
+              <ul className="relative">
                 {personInfo.certification.map((el) => {
                   return (
-                    <li>
-                      <div className="mb-2">
-                        <h3 className="text-3xl">{el.name}</h3>
-                        <p className="text-md">{el.institution}</p>
-                        <p className="text-md italic text-slate-500">
-                          {el.time}
+                    <li className="border-l-2 border-secondary pl-5 last:border-0">
+                      <div className="pb-2">
+                        <h3 className="text-3xl before:absolute before:w-6  before:h-6 before:rounded-full before:bg-red before:border-2 before:border-prime  before:-left-3 before:bg-secondary  before:shadow-md">
+                          {el.name}
+                        </h3>
+                        <p>
+                          <span className="text-md">{el.institution}. </span>
+                          <span className="text-md italic text-slate-500">
+                            {el.time}
+                          </span>
                         </p>
                       </div>
                     </li>
@@ -53,9 +57,11 @@ const About = () => {
                         <h3 className="text-3xl  before:absolute before:w-6  before:h-6 before:rounded-full before:bg-red before:border-2 before:border-prime  before:-left-3 before:bg-secondary  before:shadow-md ">
                           {el.title}
                         </h3>
-                        <p className="text-lg">{el.institution}</p>
-                        <p className="text-md italic text-slate-500">
-                          {el.duration}{" "}
+                        <p>
+                          <span className="text-lg">{el.institution}, </span>
+                          <span className="text-md italic text-slate-500">
+                            {el.duration}{" "}
+                          </span>
                         </p>
                       </div>
                     </li>

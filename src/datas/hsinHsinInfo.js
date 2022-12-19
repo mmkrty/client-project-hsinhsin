@@ -16,7 +16,7 @@ export const data = {
       {
         name: "BA of Public Administration",
         institution: "Naional Chengchi University, Taipei, Taiwan",
-        time: "2012",
+        time: "2008-2012",
       },
     ],
     experience: [
@@ -25,14 +25,6 @@ export const data = {
         institution: "MyLingoKids",
         object: "children and teenagers",
         duration: "09/2022 - present",
-        keypoints: [],
-      },
-      {
-        title: "Part-time Chinese Tutor",
-        institution: "Freelance",
-        location: "Berlin, Germany",
-        object: "adults",
-        duration: "03/2020 – 05/2020",
         keypoints: [],
       },
       {

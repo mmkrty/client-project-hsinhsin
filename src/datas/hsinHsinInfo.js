@@ -21,15 +21,15 @@ export const data = {
     ],
     experience: [
       {
-        title: "Part-time Chinese Tutor",
+        title: "Freelance Chinese Tutor",
         institution: "MyLingoKids",
         object: "children and teenagers",
         duration: "09/2022 - present",
         keypoints: [],
       },
       {
-        title: "Part-time Chinese Tutor",
-        institution: "Freelance",
+        title: "Freelance Chinese Tutor",
+        institution: "Self-employed",
         location: "Berlin, Germany",
         object: "elemantry school student",
         duration: "11/2019 – 03/2021",
@@ -65,29 +65,28 @@ export const data = {
     banner:
       "Chinese is Hard, no one can make it easy, but we can have fun while learning it.",
     content: [
-      "Let's be honest and address the elephant in the room: Chinese is HARD, period. Reading and writing? There are over 30,000 Chinese characters. Listening and speaking? There are 5 tones when it comes to pronunciation, yep, a lot, and you don't even know what does 'tone' mean.",
-      "I won't make promise you to make Chinese easy because it's just impossible. What I can do is make learning it more pleasant.",
+      "While it's true that Chinese can be a challenging language to learn, it's important to remember that with the right approach, it doesn't have to be overwhelming. Chinese characters, pronunciation, and tones can seem daunting at first, but with the proper guidance and support, you can progress and achieve your language learning goals. I'm here to help you navigate the complexities of Chinese and make learning enjoyable and rewarding. Let's face the challenges of Chinese language learning together and make it a pleasant journey.",
     ],
   },
   features: [
     {
       title: "Customization",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+        "I will work with you to create a personalized curriculum that not only helps you reach your language learning goals, but also keeps you entertained and motivated.",
       imgUrl:
         "https://images.unsplash.com/photo-1631106256072-54c89defe828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       title: "Interaction",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+        "Experience the power of interactivity in your Chinese language learning journey! I will help you improve your speaking and listening skills and keep you engaged and motivated.",
       imgUrl:
         "https://nebula.wsimg.com/447ef179458be387209d8cf239678399?AccessKeyId=D9C756D1BB6BBB46151C&disposition=0&alloworigin=1",
     },
     {
       title: "Gamification",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta, eros ac ornare tempor, turpis mauris aliquam turpis, a laoreet sapien diam id velit. Phasellus sagittis mauris a eros ullamcorper, eu lacinia ipsum porta. Vivamus et felis finibus, pulvinar eros eleifend, vulputate nisi. Integer a iaculis tortor",
+        "Ready to have fun and learn Chinese at the same time? I will keep you engaged and motivated with interactive and engaging games while you improve your Chinese.",
       imgUrl:
         "https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },

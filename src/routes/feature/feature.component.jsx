@@ -5,7 +5,7 @@ const Feature = () => {
   const { features, hook } = data;
   const aniProps = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
   return (
-    <section className="min-h-screen bg-secondary flex items-center justify-center flex-col py-16">
+    <section className="min-h-screen bg-secondary flex items-center justify-center flex-col pt-20 pb-12">
       <animated.div style={aniProps}>
         <h2 className="text-5xl font-fraunces text-prime text-center">
           Feature
@@ -21,12 +21,12 @@ const Feature = () => {
         <div className="max-w-7xl flex justify-center items-center">
           {features.map((el) => {
             return (
-              <div className="bg-white m-3 rounded-md shadow-md overflow-hidden">
+              <div className="bg-white m-3 rounded-md shadow-md overflow-hidden w-80">
                 <h3 className="text-4xl tracking-wide pb-3 pt-5 px-5">
                   {el.title}
                 </h3>
                 <hr class="mt-1 mb-4 h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                <p className="px-7 pb-4">{el.content}</p>
+                <p className="px-7 pb-4 h-36">{el.content}</p>
                 <img className="w-full" src={el.imgUrl}></img>
               </div>
             );

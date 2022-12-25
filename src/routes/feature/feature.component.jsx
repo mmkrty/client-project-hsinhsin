@@ -13,7 +13,7 @@ const Feature = () => {
         <h2 className="text-5xl font-fraunces text-prime text-center">
           Feature
         </h2>
-        <div className="w-11/12 max-w-7xl flex justify-around items-top py-14 -lg:flex-col -lg:items-center -lg:gap-y-4">
+        <div className="w-11/12 max-w-7xl flex justify-around items-top py-14 -lg:flex-col -lg:items-center -lg:gap-y-4 -sm:mx-10">
           <h3 className="max-w-xl font-semibold text-4xl flex-1 leading-relaxed text-prime">
             {hook.banner}
           </h3>
@@ -26,7 +26,7 @@ const Feature = () => {
             return (
               <div
                 key={idx}
-                className="bg-white m-3 rounded-md shadow-md overflow-hidden w-80 -sm:w-4/5"
+                className="bg-white m-3 rounded-md shadow-md overflow-hidden w-80 -md:w-5/6"
               >
                 <h3 className="text-4xl tracking-wide pb-3 pt-5 px-5">
                   {el.title}

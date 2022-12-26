@@ -7,6 +7,11 @@ export const data = {
     imgUrl: "../../assets/hsinhsin.jpg",
   },
   personInfo: {
+    about: [
+      "Hi, my name is Hsin Hsin and I am an experienced Chinese teacher with a passion for helping others learn. I received my training at the esteemed National Taiwan Normal University, where I learned to teach Chinese as a second language to both group and individual classes.",
+      "During my time as a University student, I discovered my love for teaching while working as a part-time English teacher for elementary school children. I believe that one learns best when they are having fun in the process and am committed to creating a positive and engaging learning environment for my students.",
+      "As someone who has personally struggled with learning, I understand the challenges that students may face. That's why I strive to develop customized curricula that meet the individual needs of each student, whether in a group setting or one-on-one. I am dedicated to helping my students succeed and reach their full potential.",
+    ],
     certification: [
       {
         name: "Certificate of Teacher Training Program in Chinese as a Foreign Language",

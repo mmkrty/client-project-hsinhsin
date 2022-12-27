@@ -18,8 +18,8 @@ const About = () => {
             width="50%"
             className="my-0 mx-auto"
           ></img> */}
-          <div className="text-prime max-w-5xl flex -lg:mx-5">
-            <div className="flex flex-col justify-center items-center gap-5 ">
+          <div className="text-prime max-w-5xl flex mb-5 -lg:mx-5">
+            <div className="flex flex-col justify-center items-center gap-5 text-xl">
               {personInfo.about.map((el, idx) => (
                 <p key={idx}>{el}</p>
               ))}
